@@ -1,4 +1,4 @@
-# @iconsauce/mdi-svg
+# @iconsauce/material-icons
 
 This plugin scrapes [Material Icons](https://github.com/material-icons/material-icons) of [@material-icons/svg](https://github.com/material-icons/material-icons) from which contains official Google SVG versions.
 
