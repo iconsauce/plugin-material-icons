@@ -1,10 +1,11 @@
 {
   "name": "@iconsauce/material-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An iconsauce plugin to gather official Google Material Icons SVG icons pack",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --declaration"
+    "build": "tsc --declaration",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "@material-icons/svg": "^1.0.25"
