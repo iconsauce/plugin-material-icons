@@ -8,7 +8,7 @@ const materialIconsPlugin: IconsaucePlugin = {
     lib: /([a-zA-Z_\-/]+\/([0-9a-zA-Z_-]+)\/(baseline|outline|round|sharp)\.svg)/,
   },
   selector: (path: RegExpMatchArray) => `mi/${path[3]}/${path[2].replace(/[_]+/g, '-')}`,
-  path: `${resolve('node_modules', '@material-icons/svg')}/svg/**/@(baseline|outline|round|sharp).svg`,
+  path: `${resolve(__dirname, '../../../@material-icons/svg')}/svg/**/@(baseline|outline|round|sharp).svg`,
 }
 
 export default materialIconsPlugin
