@@ -1,6 +1,11 @@
 # @iconsauce/material-icons
 
-This plugin scrapes [Material Icons](https://github.com/material-icons/material-icons) of [@material-icons/svg](https://github.com/material-icons/material-icons) from which contains official Google SVG versions.
+This plugin scrapes Material Icons from [@material-icons/svg][mi] which contains official Google SVG versions.
+
+We are **NOT supporting the official Google Material Icons SVGs** due to the problem relate in [this issue][issue], we hope something will change in the future. We thanks the team of the [unofficial Material Icons repo][mi] to keep up to date SVGs for Google.
+
+[issue]: https://github.com/google/material-design-icons/issues/1129#issuecomment-875085415
+[mi]: https://github.com/material-icons/material-icons
 
 For more infos go to [iconsauce docs][iconsauce-docs].
 
